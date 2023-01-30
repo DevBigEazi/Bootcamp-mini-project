@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700&display=swap");
+
+/* General styling */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: #f6f3f3;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.2rem;
+}
+
+.container {
+  padding: 5rem 2.5rem;
+  margin: 2rem;
+}
+
+a:link,
+a:visited,
+a:active {
+  color: inherit;
+}
+
+.btn {
+  background-color: #0a980a;
+  color: white;
+  padding: 0.5rem;
+  width: 120px;
+  text-align: center;
+  text-transform: capitalize;
+  transition: all 1000ms ease;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-transition: all 1000ms ease;
+  -moz-transition: all 1000ms ease;
+  -ms-transition: all 1000ms ease;
+  -o-transition: all 1000ms ease;
+}
+
+.btn:hover {
+  background-color: #afaf1c;
+}
+
+/* Navigation section */
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  width: 100%;
+  padding: 0.5rem 2.5rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-align: center;
+  box-shadow: 0 1.2rem 2rem rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  /* right: 0;
+  left: 0; */
+  background-color: #f6f3f3;
+}
+
+.logo {
+  color: #afaf1c;
+}
+
+.logo span {
+  color: #0a980a;
+}
+
+.navList a {
+  margin-right: 1.2rem;
+  transition: all 1000ms ease;
+}
+
+.navList a:hover {
+  color: #0a980a;
+}
+
+/* Hero section */
+.heroSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  height: 100vh;
+}
+
+.heroHeading {
+  text-align: left;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+
+.heroText {
+  text-align: left;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-weight: 200;
+  margin-bottom: 2.5rem;
+}
+
+.heroContainerRight img {
+  height: 15rem;
+  width: 100%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+/* About section */
+.about {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(/images/bg.webp);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.about h2 {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.about p {
+  font-weight: 300;
+  font-size: 1.5rem;
+  padding: 2.5rem 10rem;
+  line-height: 1.5;
+}
+
+/* Footer section */
+.footerSection {
+  border-top: 1px solid #afaf1c;
+  text-align: center;
+  margin: 2rem 0;
+  padding-top: 1rem;
+}
